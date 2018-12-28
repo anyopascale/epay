@@ -1,0 +1,80 @@
+@media only screen and(max-width: 1200px){
+    .grid_section{
+        grid-template-columns: repeat(3, 1fr)!important;
+        grid-template-rows: repeat(6, 1fr)!important;
+    }
+}
+
+@media only screen and(max-width: 1000px){
+    .texto_sections, .partners1{
+        padding: 0 2em!important;
+    }
+    .texto_sections{
+        p{
+            font-size: 1.4vmax!important;
+        }
+    }
+}
+
+@media only screen and(max-width: 650px){
+    .content_contact1{
+        max-width: 100%!important;
+        padding: 50px 30px!important;
+         }
+        .space_top_nn_sections{
+            height: 35vh;
+            .top_section1{
+                height: 100%!important;
+                max-height: auto!important;
+            }
+        }
+        
+}
+
+@media only screen and(max-width: 520px){
+    .top_contaccc{
+        flex-direction: column;
+        .txxt_contc{
+            margin-bottom: 1.5em;
+        }
+        .number{
+            padding: 1em 0!important;
+        }
+    }
+    .partners1{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+
+}
+
+@media only screen and(max-width: 500px) {
+    .logo{
+        width: 80px!important;
+    }
+    .first_look{
+        p{
+            width: 100%!important;
+        }
+    }
+}
+
+@media only screen and(max-width: 400px){
+    .grid_section{
+        height: auto!important;
+        grid-template-columns: repeat(1, 1fr)!important;
+        grid-template-rows: repeat(18, 1fr)!important;
+    }
+   .box_partnres{
+       padding: .5em!important;
+   }
+
+}
+
+@media only screen and(max-width: 350px){
+    .direcct{
+        flex-direction: column;
+        .box_direccts{
+            margin-bottom: 3em;
+        }
+    }
+}

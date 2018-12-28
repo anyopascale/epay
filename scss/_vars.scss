@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+:root {
+    --fuente: 'Lato', sans-serif;
+    --primary: rgb(0, 0, 0);
+    --secondary: rgb(255, 255, 255);
+    --grd2: repeat(2, 1fr);
+    --grd3: repeat(3, 1fr);
+    --grd4: repeat(4, 1fr);
+    --gap: 1vw;
+    img {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+
+
+
